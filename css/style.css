@@ -2,8 +2,33 @@
   border: solid 1px black;
 }
 
-header nav {
+body, html {
+  font-family: "Quicksand", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
   background-color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: wheat;
+  text-decoration: none;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 main {
@@ -20,4 +45,6 @@ aside .container {
 
 footer {
   background-color: brown;
+  align-items: center;
+  text-align: center;
 }
