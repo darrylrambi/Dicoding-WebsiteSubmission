@@ -1,0 +1,23 @@
+*, :root {
+  border: solid 1px black;
+}
+
+header nav {
+  background-color: blue;
+}
+
+main {
+  display: flex;
+}
+
+.content {
+  background-color: aliceblue;
+}
+
+aside .container {
+  background-color: aqua;
+}
+
+footer {
+  background-color: brown;
+}
