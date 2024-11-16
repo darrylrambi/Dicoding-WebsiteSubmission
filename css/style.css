@@ -33,6 +33,7 @@ header nav ul li a {
 
 main {
   display: flex;
+  justify-content: space-around;
 }
 
 .content {
