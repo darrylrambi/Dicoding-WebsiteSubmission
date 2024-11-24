@@ -33,11 +33,29 @@ header nav ul li a {
 
 main {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 .content {
   background-color: aliceblue;
+  text-align: center;
+}
+
+h2, h4 {
+  padding: 0;
+  margin: 4px;
+}
+
+.Projects {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.About {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
 }
 
 aside .container {
